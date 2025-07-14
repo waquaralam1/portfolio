@@ -1,6 +1,8 @@
 # Waquar Alam - Portfolio Website
+🌐 **Live Website**: [waquaralam1.github.io/portfolio](https://waquaralam1.github.io/portfolio)
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS showcasing the work and achievements of Waquar Alam, a Mechanical Engineering student at Aligarh Muslim University.
+
 
 ## 🚀 Features
 
