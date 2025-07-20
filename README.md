@@ -1,28 +1,45 @@
-# Waquar Alam - Portfolio Website
+<h1 align="center">🚀 Waquar Alam - Portfolio Website</h1>
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS showcasing the work and achievements of Waquar Alam, a Mechanical Engineering student at Aligarh Muslim University.
+<p align="center">
+  <a href="https://waquaralam1.github.io/portfolio" target="_blank">
+    🌐 <strong>Live Website</strong>
+  </a> | Built with ❤️ using React, TypeScript & Tailwind CSS
+</p>
 
-## 🚀 Features
+---
 
-- **Modern Design**: Clean, professional design with smooth animations
-- **Responsive Layout**: Fully responsive across all devices
-- **7 Pages**: Home, About, Projects, Research, Experience, Achievements, Contact
-- **TypeScript**: Full TypeScript support for better code quality
-- **Smooth Animations**: Framer Motion animations for enhanced UX
-- **Contact Form**: Functional contact form with validation
-- **Resume Download**: Easy access to downloadable resume
+A modern, responsive portfolio website that reflects the profile, experience, and work of **Waquar Alam**, a passionate Mechanical Engineering student at Aligarh Muslim University, with a focus on sustainability, thermal systems, and innovation.
+
+---
+
+## ✨ Highlights
+
+- ⚡ **Modern UI/UX** with Framer Motion
+- 📱 **Fully Responsive** across devices
+- 🧠 **7 Dynamic Pages**: Home, About, Projects, Research, Experience, Achievements, Contact
+- 📄 **Downloadable Resume** in one click
+- 📨 **Functional Contact Form** with validation
+- 🔍 **TypeScript Support** for better maintainability
+
+---
 
 ## 🛠️ Tech Stack
 
-- **React 18** - Frontend framework
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Router DOM** - Client-side routing
-- **Framer Motion** - Animation library
-- **Lucide React** - Icon library
-- **Vite** - Build tool
+| Tech           | Description                          |
+|----------------|--------------------------------------|
+| **React 18**   | Frontend Framework                   |
+| **TypeScript** | Strongly-typed JavaScript            |
+| **Tailwind CSS** | Utility-first CSS for design        |
+| **Vite**       | Blazing-fast build tool              |
+| **Framer Motion** | Smooth animations                 |
+| **Lucide React** | Icon library                        |
+| **React Router DOM** | Routing and navigation          |
 
-## 📁 Project Structure
+---
+
+## 📁 Folder Structure
+
+
 
 ```
 waquar-portfolio/
