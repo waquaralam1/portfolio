@@ -44,7 +44,7 @@ const Home = () => {
               </div>
               
               <p className="text-lg lg:text-xl text-gray-600 max-w-2xl leading-relaxed">
-                Pre-final year student at <span className="font-semibold text-primary-700">Aligarh Muslim University</span>, 
+                Final year student at <span className="font-semibold text-primary-700">Aligarh Muslim University</span>, 
                 passionate about thermal systems, sustainability, and innovative engineering solutions. 
                 Currently working on cutting-edge research in refrigeration and 3D printing technologies.
               </p>

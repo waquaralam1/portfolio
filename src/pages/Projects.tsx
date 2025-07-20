@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Thermometer, Snowflake, Printer, Wrench } from 'lucide-react'
+import { ExternalLink, Github, Home, Printer, Wrench } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 
@@ -6,38 +6,24 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Multi-Evaporator Refrigeration System",
-      description: "Advanced refrigeration system design with multiple evaporators for enhanced efficiency and temperature control. This ASHRAE-funded project explores innovative cooling solutions for industrial applications.",
-      tags: ["Thermodynamics", "Refrigeration", "ASHRAE", "Energy Efficiency"],
+      title: "Net Zero Energy Building Design for Army Shelter (RISE-UP, IIT Jammu)",
+      description: "Energy-efficient building simulation and load analysis for army shelters in extreme climates. This project involved optimizing heat gains, renewable integration, and envelope design to meet NZEB standards.",
+      tags: ["Sustainable Infrastructure", "Energy Modeling", "Building Simulation", "RISE-UP Internship"],
       category: "Research",
-      icon: <Snowflake className="h-6 w-6" />,
+      icon: <Home className="h-6 w-6" />,
       status: "Completed",
-      duration: "2023 - 2024",
+      duration: "2024",
       highlights: [
-        "ASHRAE-funded undergraduate research project",
-        "Improved cooling efficiency by 25%",
-        "Developed innovative evaporator design",
-        "Comprehensive system analysis and optimization"
+        "Selected for the RISE-UP internship at IIT Jammu",
+        "Designed a Net Zero Energy Building (NZEB) model for high-altitude army shelters",
+        "Conducted thermal load simulations including seasonal variation and sun tracking",
+        "Integrated Trombe wall to reduce annual electric heating demand and cut CO₂ emissions by 114 kg",
+        "Generated comparative performance graphs and tabular data using hourly climate inputs",
+        "Applied mechanical engineering concepts to optimize envelope transmission loss and energy savings"
       ]
     },
     {
       id: 2,
-      title: "Cryogenic Cooling Strategies",
-      description: "Comprehensive study on cryogenic cooling techniques for sustainable machining processes. Published as a book chapter in Wiley's 'Smart & Sustainable Manufacturing' series.",
-      tags: ["Cryogenic", "Sustainability", "Manufacturing", "Research"],
-      category: "Publication",
-      icon: <Thermometer className="h-6 w-6" />,
-      status: "Published",
-      duration: "2023",
-      highlights: [
-        "Published in Wiley book chapter",
-        "Focus on sustainable manufacturing",
-        "Advanced cooling techniques research",
-        "Environmental impact analysis"
-      ]
-    },
-    {
-      id: 3,
       title: "3D Printing in Pandemic Response",
       description: "Research on digital manufacturing processes and functional 3D printing applications during the COVID-19 pandemic. Published in Springer's emerging frontiers series.",
       tags: ["3D Printing", "Digital Manufacturing", "Healthcare", "Innovation"],
@@ -53,7 +39,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 4,
+      id: 3,
       title: "ONGC Drilling Equipment & Well Simulation",
       description: "Comprehensive study and simulation of drilling equipment and well operations during internship at ONGC facilities in Kolkata and Dehradun.",
       tags: ["Drilling", "Simulation", "Oil & Gas", "Equipment Design"],
@@ -198,11 +184,11 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
             <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Thermometer className="h-8 w-8 text-purple-600" />
+              <Home className="h-8 w-8 text-purple-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Research Projects</h3>
             <p className="text-gray-600">
-              Funded research projects focusing on thermal systems, refrigeration, and energy efficiency.
+              Research projects focusing on sustainable infrastructure, energy modeling, and building simulation.
             </p>
           </div>
           

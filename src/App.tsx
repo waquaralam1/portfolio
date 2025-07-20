@@ -11,7 +11,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="min-h-screen bg-background">
         <Navbar />
         <main>
